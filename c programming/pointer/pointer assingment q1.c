@@ -8,9 +8,9 @@
          int*p;
          p=&a;
 
-         printf("%d\n",a);
+         printf("value using variable :%d\n",a);
 
-         printf("%d\n",p);
+         printf("value using pointer:%d\n",p);
 
 
 
