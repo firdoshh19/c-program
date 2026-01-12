@@ -12,14 +12,6 @@
 
          printf("value using pointer:%d\n",p);
 
-
-
-
-
-
-
-
-
      }
 
 
