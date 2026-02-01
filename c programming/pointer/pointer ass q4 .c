@@ -9,12 +9,25 @@
      printf("%d\n",p);
      p=p+1;
      printf("%d",p);*/
+#include <stdio.h>
+
+int main() {
+    int num = 10;      // integer variable
+    int *ptr = &num;   // pointer to num
+
+    printf("Before increment: %d\n", num);
+
+    (*ptr)++;          // increment using pointer
+
+    printf("After increment: %d\n", num);
+
+    return 0;
+}
 
 
 
 
 
 
-
- }
+ 
 
